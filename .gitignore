@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+ConsoleTest/.vs/ConsoleTest/v15/ipch/2ee9e672b7277ddc.ipch
+ConsoleTest/.vs/ConsoleTest/v15/Browse.VC.opendb
+ConsoleTest/.vs/ConsoleTest/v15/Browse.VC.db
+ConsoleTest/.vs/ConsoleTest/v15/.suo
+*.tlog
+*.idb
+*.pdb
+*.ilk
