@@ -1,5 +1,7 @@
 #include "stdafx.h"
 
+// https://mbevin.wordpress.com/2012/11/16/uniform-initialization/
+
 void clst1()
 {
 	class SfxClassName {
