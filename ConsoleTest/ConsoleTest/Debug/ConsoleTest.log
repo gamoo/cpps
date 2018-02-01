@@ -1,6 +1,1 @@
-﻿  stdafx.cpp
-  ptrtest.cpp
-  maptest.cpp
-  ConsoleTest.cpp
-  Generating Code...
-  ConsoleTest.vcxproj -> D:\dev\github\gamoo\cpps\cpps\ConsoleTest\Debug\ConsoleTest.exe
+﻿  clstest.cpp
