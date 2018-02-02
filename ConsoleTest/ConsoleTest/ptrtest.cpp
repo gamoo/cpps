@@ -2,6 +2,8 @@
 #include <memory>
 #include <string>
 
+using namespace std;
+
 //
 // https://msdn.microsoft.com/ko-kr/library/hh279674.aspx
 // https://msdn.microsoft.com/en-us/library/hh279674.aspx
@@ -177,6 +179,7 @@ void week_test()
 	std::cin.getline(&ch, 1);
 }
 
+// http://pacs.tistory.com/entry/%ED%95%AD%EB%AA%A9-13-%EC%9E%90%EC%9B%90-%EA%B4%80%EB%A6%AC%EC%97%90%EB%8A%94-%EA%B0%9D%EC%B2%B4%EA%B0%80-%EA%B7%B8%EB%A7%8C-sharedptr-autoptr
 // auto_ptr
 
 void auto_test()
@@ -188,7 +191,15 @@ void auto_test()
 	};
 
 	std::auto_ptr<AutoS> a1(new AutoS{ 3, "background" });
-	std::auto_ptr<AutoS> a2(a1); // copy a1 
+	std::auto_ptr<AutoS> a2(a1); // copy a1 , a2에게 자원을 넘겨주고 a2 자신은 null로 바뀜, 그래서 shared_ptr 등장
 	
+	//std::wcout << L"a1.string = " << a1->v.c_str() << std::endl;	// runtime error
+	std::wcout << L"a2.string = " << a2->v.c_str() << std::endl;
 
+	std::shared_ptr<AutoS> s1(new AutoS{ 5, "shared" });
+	std::shared_ptr<AutoS> s2(s1);
+
+	std::wcout << L"s1.string = " << s1->v.c_str() << std::endl;
+	wcout << L"s2.string = " << s2->v.c_str() << endl;
+	
 }

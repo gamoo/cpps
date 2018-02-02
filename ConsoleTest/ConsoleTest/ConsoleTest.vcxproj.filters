@@ -30,6 +30,12 @@
     <ClInclude Include="clstest.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="tpltest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algtest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +51,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="clstest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tpltest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="algtest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

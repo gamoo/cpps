@@ -3,6 +3,9 @@
 
 #include <tuple>
 
+// http://ko.cppreference.com/w/cpp/utility/tuple
+
+
 void tuple_test()
 {
 	std::tuple<int, int> t1(10, 20);
