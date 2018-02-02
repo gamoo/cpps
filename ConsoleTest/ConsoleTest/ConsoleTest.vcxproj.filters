@@ -36,6 +36,9 @@
     <ClInclude Include="algtest.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="enumtest.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -57,6 +60,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="algtest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enumtest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

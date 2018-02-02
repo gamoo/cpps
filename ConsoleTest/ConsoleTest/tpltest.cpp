@@ -2,9 +2,12 @@
 #include "tpltest.h"
 
 #include <tuple>
+#include <list>
+#include <map>
+
+using namespace std;
 
 // http://ko.cppreference.com/w/cpp/utility/tuple
-
 
 void tuple_test()
 {
@@ -21,4 +24,16 @@ void tuple_test()
 
 	std::cout << "x1 = " << x1 << std::endl;
 	std::cout << "x2 = " << x2 << std::endl;
+}
+
+void tuple_test2()
+{
+	map<pair<int, int>, int> mm{
+		{{1, 1}, 3117 },
+		{{2, 2}, 3227}
+	};
+
+	cout << "pair(1,1) = " << mm[{1, 1}] << endl;
+	cout << "pair(1,1) = " << mm[make_pair(2, 2)] << endl;
+
 }
