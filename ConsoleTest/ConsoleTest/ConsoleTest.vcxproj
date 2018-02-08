@@ -150,6 +150,7 @@
     <ClInclude Include="algtest.h" />
     <ClInclude Include="clstest.h" />
     <ClInclude Include="enumtest.h" />
+    <ClInclude Include="foreacht.h" />
     <ClInclude Include="maptest.h" />
     <ClInclude Include="ptrtest.h" />
     <ClInclude Include="stdafx.h" />
@@ -161,6 +162,7 @@
     <ClCompile Include="clstest.cpp" />
     <ClCompile Include="ConsoleTest.cpp" />
     <ClCompile Include="enumtest.cpp" />
+    <ClCompile Include="foreacht.cpp" />
     <ClCompile Include="maptest.cpp" />
     <ClCompile Include="ptrtest.cpp" />
     <ClCompile Include="stdafx.cpp">
