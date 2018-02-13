@@ -41,3 +41,9 @@ ConsoleTest/.vs/ConsoleTest/v15/.suo
 *.db
 RegexSample/.vs/RegexSample/v15/.suo
 *.db
+*.ipch
+LambdaTest/.vs/LambdaTest/v15/.suo
+*.log
+*.suo
+*.opendb
+*.enc
